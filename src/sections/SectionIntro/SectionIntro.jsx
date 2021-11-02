@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuHeader from './components/MenuHeader';
+
 import ActionCardSplitter from './components/ActionCardSplitter';
 
 import OliviaFinance from './../../assets/img/LogoOliviaFinanceLow.png';
@@ -23,7 +23,6 @@ class SectionIntro extends React.Component
     {
         return (
             <section ref={this.root} className="SectionIntro Hide">
-                <MenuHeader/>
                 <img className="Foto" src={OliviaFinance} alt="Logo de la agencia" />
                 
                 <div className="Background"></div>

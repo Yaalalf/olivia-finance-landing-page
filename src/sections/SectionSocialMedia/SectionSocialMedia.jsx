@@ -11,10 +11,22 @@ import Facebook from './../../assets/icons/FacebookIcon.svg';
 
 class SectionSocialMedia extends React.Component
 {
+
+    constructor(props) 
+    {
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot()
+    {
+        return this.root.current;
+    }
+
     render()
     {
         return (
-            <section className="SectionSocialMedia">
+            <section ref={this.root} className="SectionSocialMedia Hide">
                 <h2>Contactenos</h2>
                 <p>Contacte con nosotros para mas información o visite nuestras paginas en redes sociales</p>
                 <div className="Background"></div>

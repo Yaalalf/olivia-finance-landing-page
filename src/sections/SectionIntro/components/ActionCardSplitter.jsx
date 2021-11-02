@@ -44,8 +44,7 @@ class ActionCardSplitter extends React.Component
     }
     
     onClickHandle = (e)=>{
-        console.log(e);
-
+        
         if(e.target.className === "Right")
         {
             this.setState({

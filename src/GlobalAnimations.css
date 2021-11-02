@@ -18,3 +18,30 @@
         opacity: 1;
     }
 }
+
+.ShowMenu
+{
+    animation-name: Show;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.HideMenu
+{
+    animation-name: Hide;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes Hide{
+    form
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
+}

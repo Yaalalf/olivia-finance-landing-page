@@ -5,10 +5,21 @@ import './style/SectionRecargaMovil.css'
 
 class SectionRecargaMovil extends React.Component
 {
+    constructor(props) 
+    {
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot()
+    {
+        return this.root.current;
+    }
+
     render()
     {
         return (
-            <section id="Movil" className="SectionRecargaMovil">
+            <section ref={this.root} id="Movil" className="SectionRecargaMovil Hide">
                 <div className="FloatingIcon"></div>
                 <h2>Recarga Movil</h2>
                 <p>Recargue el saldo de sus familiares y amigos en la isla, todo con saldo principal</p>

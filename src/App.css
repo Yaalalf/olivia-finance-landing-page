@@ -54,3 +54,8 @@ html
 {
     opacity: 0;
 }
+
+.OverflowHidden
+{
+    overflow: hidden;
+}

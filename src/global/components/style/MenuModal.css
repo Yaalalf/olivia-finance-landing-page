@@ -1,0 +1,83 @@
+.MenuModal
+{
+    block-size: 100vh;
+    inline-size: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+
+}
+
+.MenuModal button
+{
+    block-size: 60px;
+    inline-size: 60px;
+
+    align-self: flex-end;
+
+    border: none;
+    outline: none;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.MenuModal button:active
+{
+    transform: scale(1.1);
+}
+
+.MenuModal ul
+{
+    block-size: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    
+    list-style-type: none;
+}
+
+.MenuModal ul li
+{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.MenuModal ul li:nth-of-type(1)
+{
+    margin-top: 15vh;
+}
+
+.MenuModal ul li a
+{
+
+    border-bottom: white 3px solid;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+} 
+
+.MenuModal ul li a:active
+{
+    transform: scale(1.1);
+}
+
+
+.DisplayNone
+{
+    display: none;
+}
