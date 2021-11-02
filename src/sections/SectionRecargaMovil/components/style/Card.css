@@ -1,0 +1,84 @@
+.Card
+{
+    max-inline-size: 280px;
+    inline-size: 80%;
+    block-size: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 20px;  
+    box-shadow: rgb(0 0 0 / 25%) 3px 3px 3px;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));    
+}
+
+.Card h3
+{
+    font-size: 2.3rem;
+}
+
+.Card .Content
+{
+    inline-size: 100%;
+}
+
+.Card .Content p
+{
+    inline-size: 100%;
+    
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.Card p:nth-of-type(1)
+{
+    padding-left: 10%;
+
+    text-align: start;
+}
+
+.Card p:nth-of-type(2)
+{
+    text-align: center;   
+}
+
+.Card p:nth-of-type(3), .Card p:nth-of-type(4)
+{
+    padding-left: 40%;
+
+    text-align: center; 
+}
+
+.Card .BackgroundImg
+{
+    inline-size: 100%;
+    block-size: 35%;
+    
+    background-image: url('./../../../../assets/img/ManoMovilLow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+}
+
+.Card a
+{
+    inline-size: 50%;
+    block-size: 8%;
+
+    display: block;
+
+    padding-top: 8px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
+
+    background-color: var(--white);
+    
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color-gradient-dark);
+}

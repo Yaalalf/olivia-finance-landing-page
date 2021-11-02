@@ -1,0 +1,55 @@
+.SectionRecargaMovil
+{
+    min-block-size: 625px;
+    block-size: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: relative;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+
+    color: white;
+}
+
+.SectionRecargaMovil .FloatingIcon
+{
+    block-size: 70px;
+    inline-size: 70px;
+
+    position: absolute;
+    top: -38px;
+
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
+
+    background-color: white;  
+    background-image: url('./../../../assets/icons/Movil.svg');
+    background-repeat: no-repeat;
+    background-size: calc(100% - 50%);
+    background-position: center;  
+}
+
+.SectionRecargaMovil h2
+{
+    inline-size: 50%;
+
+    margin-top: 8%;
+    padding-bottom: 1%;
+    border-bottom: solid 2px white;
+    
+    font-size: 6vw;
+    text-align: center;
+}
+
+.SectionRecargaMovil p
+{
+    inline-size: 80%;
+    
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+}

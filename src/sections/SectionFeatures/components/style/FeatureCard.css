@@ -1,0 +1,42 @@
+.FeatureCard
+{
+    block-size: 25%;
+    inline-size: 90%;
+
+    display: flex;
+    
+    box-shadow: rgba(0, 0, 0, 0.158) 0 3px 9px;
+
+    background-color: white;
+
+    color: var(--color-letter-constrast);
+}
+
+.FeatureCard .FeatureIcon
+{
+    margin: 2px;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.FeatureCard .FeatureContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FeatureCard .FeatureContent h3
+{
+    margin-bottom: 7px;
+
+    font-size: 4.4vw;   
+}
+
+.FeatureCard .FeatureContent p
+{
+    inline-size: 80%;
+
+    font-size: 3.5vw;
+    font-weight: 400;
+}

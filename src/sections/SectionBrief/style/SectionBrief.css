@@ -1,0 +1,94 @@
+.SectionBrief
+{
+    min-block-size: 625px;
+    block-size: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SectionBrief .Brief
+{
+    block-size: 50%;
+    inline-size: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.SectionBrief .Brief h2
+{
+    inline-size: 100%;
+    
+    padding-bottom: 3px;
+    border-bottom: solid 0.6vw var(--color-letter-medium);
+    
+    font-size: 5vw;
+    text-align: center;
+    color: var(--color-letter-medium);
+}
+
+.SectionBrief .Brief p
+{
+    
+    inline-size: 90%;
+   
+    position: relative;
+    bottom: 10px;
+    
+    margin: 0 auto;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    text-align: start;
+    color: var(--color-letter-soft);
+}
+
+.SectionBrief .Horario
+{
+    inline-size: 80%;
+    block-size: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.SectionBrief .Horario h2
+{
+
+    padding-bottom: 3px;
+    border-bottom: solid 0.6vw var(--color-letter-medium);
+    
+    font-size: 5vw;
+    color: var(--color-letter-medium);
+}
+
+.SectionBrief .Horario p
+{
+    position: relative;
+    bottom: 10px;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-letter-soft);
+}
+
+.SectionBrief .Hoja
+{
+    inline-size: 100%;
+    block-size: 20%;
+
+    background-image: url('./../../../assets/img/HojaLow.png');
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transform: rotateY(180deg);
+}

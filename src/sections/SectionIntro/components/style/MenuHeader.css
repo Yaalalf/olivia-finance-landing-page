@@ -1,0 +1,45 @@
+.MenuHeader
+{
+    min-block-size: 40px;
+
+    inline-size: 100%;
+    block-size: 7vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: sticky;
+    top: 0px;
+    z-index: 10; */
+
+    background-image: linear-gradient(var(--primary-color-medium),var(--primary-color-dark));
+}
+
+.MenuHeader .Logo
+{
+    inline-size: 20%;
+    block-size: 80%;
+
+    object-fit: contain;
+}
+
+.MenuHeader .Menu
+{
+    inline-size: 10%;
+    block-size: 40%;
+
+    margin-right: 3%;
+    border: none;
+    
+    background-image: url('./../../../../assets/icons/Menu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.MenuHeader .Menu:active
+{
+    transform: scale(1.1);
+}

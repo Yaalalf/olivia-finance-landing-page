@@ -1,0 +1,83 @@
+.SectionSocialMedia
+{
+    block-size: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SectionSocialMedia h2
+{
+    inline-size: 50%;
+    
+    border-bottom: solid var(--color-letter-medium) 2px;
+
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--color-letter-medium);
+}
+
+.SectionSocialMedia p
+{
+    inline-size: 75%;
+    
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+
+    color: var(--color-letter-soft);
+}
+
+.SectionSocialMedia .Background
+{
+    inline-size: 100%;
+    block-size: 28%;
+    
+    position: relative;
+    bottom: 3%;
+    z-index: -1;
+
+    transform: rotatex(180deg);
+
+    background-image: url('./../../../assets/img/HojasLow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+}
+
+.SectionSocialMedia .Container
+{
+    block-size: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    position: relative;
+    bottom: 50px;
+}
+
+.SectionSocialMedia .Container div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.SectionSocialMedia .Container div img
+{
+    inline-size: 15%;
+    
+    object-fit: contain;
+}
+
+.SectionSocialMedia .Container div a
+{
+    font-size: 2rem;
+    font-weight: 500;
+
+    color: var(--color-letter-medium);
+}

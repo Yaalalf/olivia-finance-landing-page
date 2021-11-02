@@ -1,0 +1,59 @@
+.SectionFeatures
+{
+    min-block-size: 625px;
+    block-size: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: relative;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+
+    color: white;
+}
+
+.SectionFeatures .FloatingIcon
+{
+    
+    block-size: 70px;
+    inline-size: 70px;
+    
+    position: absolute;
+    top: -38px;
+    
+    border-radius: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
+    
+    background-color: white;
+    background-image: url('./../../../assets/img/LogoLetraOLow.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    
+}
+
+.SectionFeatures h2
+{
+    inline-size: 80%;
+
+    margin-top: 40px;
+
+    font-size: 6vw;
+    text-align: center;
+}
+
+.SectionFeatures .CardContainer
+{
+    block-size: 80%;
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}

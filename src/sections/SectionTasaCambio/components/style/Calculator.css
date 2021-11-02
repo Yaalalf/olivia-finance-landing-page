@@ -1,0 +1,84 @@
+.CalculatorContainer
+{
+    block-size: 45%;
+    inline-size: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+    box-shadow:rgb(0 0 0 / 16%) 0 3px 6px ;
+    
+    color: var(--color-letter-medium);
+}
+
+.CalculatorContainer .Calculator
+{
+    block-size: 50%;
+    inline-size: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+
+}
+
+.CalculatorContainer  h2
+{
+    font-size: 7vw;
+    font-style: italic;
+    color: var(--color-calculator);
+}
+
+.CalculatorContainer  p
+{
+    inline-size: 90%;   
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-calculator); 
+}
+
+
+.CalculatorContainer .Calculator div
+{
+    display: flex;
+
+    margin-bottom: 10px;
+    border-bottom: solid 2px var(--color-letter-soft);
+}
+
+.CalculatorContainer .Calculator div span
+{
+    font-size: 4.5vw;
+    font-weight: 600;
+    color: var(--color-letter-soft);
+}
+
+.CalculatorContainer .Calculator input
+{
+    inline-size: 90%;
+
+    position: relative;
+    top: 3%;
+
+    border: none;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--color-letter-soft);
+
+}
+
+.CalculatorContainer .Calculator input:focus
+{
+    outline: none;
+}

@@ -1,0 +1,92 @@
+.ActionCard
+{
+    max-block-size: 200px;
+    inline-size: 85%;
+    block-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 1;
+
+    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
+
+    background-color: rgba(255, 255, 255, 0.808);   
+}
+
+.ActionCard .Content
+{
+    block-size: 100%;
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;       
+}
+
+.ActionCard h2
+{
+    margin-top: 27px;
+    margin-left: 4%;
+
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1rem;
+    color: var(--color-letter-dark);
+}
+
+.ActionCard h2 span
+{
+    font-weight: 600;
+}
+
+.ActionCard ul
+{
+    margin-top: 8%;
+    padding-left: 10%;
+   
+    font-size: 1.6rem;
+    color: var(--color-letter-soft);
+
+    list-style-type: none;
+}
+
+
+.ActionCard li::before
+{
+    display: inline-block;
+    
+    position: relative;
+    bottom: 2px;
+    
+    margin-right: 3px;
+
+    font-weight: 100;
+    font-size: 1.3rem;
+    
+    content: "o";
+}
+
+.ActionCard a
+{
+    min-block-size: 35px;
+    max-inline-size: 150px;
+    inline-size: 50%;
+    block-size: 20%;
+
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 7px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
+    
+    background-color: #34a5d7;
+    
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+

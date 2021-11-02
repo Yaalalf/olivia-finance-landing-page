@@ -1,0 +1,61 @@
+.SectionIntro
+{
+    min-block-size: 625px;
+    block-size: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
+
+    border-bottom: solid 3px var(--primary-color-dark);
+
+
+}
+
+.SectionIntro  .Foto
+{
+
+    inline-size: 85%;
+    block-size: 30%;
+
+    position: relative;
+    top: 45px;
+
+    object-fit: contain;
+    
+}
+
+.SectionIntro .Background
+{
+    inline-size: 100%;
+    block-size: 28%;
+
+    transform: rotatex(180deg);
+
+    background-image: url('./../../../assets/img/HojasLow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+    
+}
+
+.SectionIntro .Background1
+{
+    inline-size: 100%;
+    block-size: 28%;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+
+    transform: rotatey(180deg);
+
+    background-image: url('./../../../assets/img/HojasLow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+}

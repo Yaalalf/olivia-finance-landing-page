@@ -1,0 +1,67 @@
+@import 'Animations.css';
+
+.ActionCardSplitter
+{
+    max-block-size: 300px;
+    inline-size: 100%;
+    block-size: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    overflow: clip;
+
+}
+
+.ActionCardSplitter .Buttons
+{
+    inline-size: 95%;
+  
+    display: flex;
+    justify-content: space-between;
+    
+    position: absolute;
+    bottom: calc(65% - 15px);   
+    z-index: 2;
+}
+
+.ActionCardSplitter .Buttons button
+{
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    
+    border: none;
+   
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('./../../../../assets/icons/Flecha.svg');
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.ActionCardSplitter .Buttons .Left:active
+{
+    transform: scale(1.1);
+}
+
+.ActionCardSplitter .Buttons .Right
+{
+    transform: rotatey(180deg);
+}
+
+.ActionCardSplitter .Buttons .Right:active
+{
+    transform: rotatey(180deg) scale(1.1);
+}
+
+
+.ActionCardSplitter .ActionCard.Second
+{
+    position: absolute;
+
+    transform: translateX(500px);
+}

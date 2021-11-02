@@ -1,0 +1,125 @@
+.SectionTasaCambio
+{
+    min-block-size: 625px;
+    block-size: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.SectionTasaCambio .Hoja
+{
+    inline-size: 100%;
+    block-size: 15%;
+
+    background-image: url('./../../../assets/img/HojaLow.png');
+    background-size: 50%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.SectionTasaCambio .Content
+{
+    inline-size: 100%;
+    block-size: 35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 10px;
+    
+}
+
+.SectionTasaCambio .Content .ContentHeader
+{
+    inline-size: 100%;
+    block-size: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionTasaCambio .ContentHeader h2
+{
+    inline-size: 70%;
+
+    position: relative;
+
+    border-bottom: var(--color-letter-soft) 2px solid;
+
+    font-size: 7vw;
+    text-align: end;
+    padding-right: 3%;
+    
+    color: var(--color-letter-medium);
+}
+
+.SectionTasaCambio .ContentHeader span
+{
+    inline-size: 100%;
+    block-size: 130%;
+
+    display: inline-block;
+    
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+
+    background-image: url('./../../../assets/icons/TasaCambio.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.SectionTasaCambio .ContentHeader p
+{
+    inline-size: 80%; 
+
+    margin-top: 15px;
+
+    font-size: 1.4rem;
+    font-weight: 400;      
+    text-align: center;
+    color: var(--color-letter-soft);
+}
+
+.SectionTasaCambio .ContentTasaCambio
+{
+    inline-size: 40%;
+    block-size: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 10px;
+    box-shadow:rgb(0 0 0 / 16%) 0 3px 6px ;
+}
+
+.SectionTasaCambio .ContentTasaCambio p
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-letter-constrast);
+}
+
+.SectionTasaCambio .ContentTasaCambio p span
+{
+    inline-size: 30px;
+    block-size: 20px;
+
+    display: inline-block;
+
+    position: relative;
+    top: 5px;
+
+    background-image: url('./../../../assets/icons/Transaccion.svg');
+    background-repeat: no-repeat;
+    background-size: contain;   
+}

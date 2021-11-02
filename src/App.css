@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Black.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-BlackItalic.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Bold.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-BoldItalic.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Italic.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Light.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-LightItalic.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Medium.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-MediumItalic.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Regular.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-Thin.ttf') format('ttf'),
+    url('./assets/fonts/Roboto-ThinItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Roboto',serif/*Verdana,sans-serif*/;
+    font-size: 62.5%;
+}
+
+:root
+{
+    --color-gradient-dark: #2D80C0;
+    --color-gradient-soft: #72C1FF;
+
+    --primary-color-dark : #0075CE;
+    --primary-color-medium : #69BEFF;
+    --primary-color-soft: #82B7FF;
+    
+    --white:#FFFFFF;
+
+    --color-letter-soft: #707070;
+    --color-letter-medium: #5E5E5E;
+    --color-letter-dark: #414142;    
+    --color-letter-constrast:#7272B8;
+
+    --color-calculator:#586374;
+
+}
+
+.Hide
+{
+    opacity: 0;
+}
