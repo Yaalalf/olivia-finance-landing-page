@@ -18,7 +18,7 @@ class SectionBrief extends React.Component
     render()
     {
         return (
-            <section ref={this.root} className="SectionBrief Hide">
+            <section id="SectionBrief" ref={this.root} className="SectionBrief Hide">
                     <div className="Brief">
                         <h2>Envie su remesa a Cuba al instante</h2>
                         <p>Lorem  asdkadj asd asdasd asd asd jkasdj asdk  askd asdjk sdak asdjks adjsa ksad  djas kdsajk daskdas 

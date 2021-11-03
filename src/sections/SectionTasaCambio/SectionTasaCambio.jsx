@@ -20,7 +20,7 @@ class SectionTasaCambio extends React.Component
     render()
     {
         return (
-            <section ref={this.root} className="SectionTasaCambio Hide">
+            <section id="SectionTasaCambio" ref={this.root} className="SectionTasaCambio Hide">
                 <div className="Hoja"></div>
                 <div className="Content">
                     <div className="ContentHeader">

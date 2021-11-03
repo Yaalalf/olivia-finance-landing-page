@@ -24,7 +24,7 @@ class SectionFeatures extends React.Component
     render()
     {
         return(
-            <section ref={this.root} className="SectionFeatures Hide">
+            <section id="SectionFeatures" ref={this.root} className="SectionFeatures Hide">
                 <div className="FloatingIcon"></div>
                 <h2>Las caracteristicas que nos definen</h2>
                 <div className="CardContainer">

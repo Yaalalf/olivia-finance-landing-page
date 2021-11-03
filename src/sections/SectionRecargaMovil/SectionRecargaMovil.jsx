@@ -19,7 +19,7 @@ class SectionRecargaMovil extends React.Component
     render()
     {
         return (
-            <section ref={this.root} id="Movil" className="SectionRecargaMovil Hide">
+            <section id="SectionRecargaMovil" ref={this.root} className="SectionRecargaMovil Hide">
                 <div className="FloatingIcon"></div>
                 <h2>Recarga Movil</h2>
                 <p>Recargue el saldo de sus familiares y amigos en la isla, todo con saldo principal</p>

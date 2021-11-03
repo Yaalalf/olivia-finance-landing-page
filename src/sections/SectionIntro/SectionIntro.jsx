@@ -22,7 +22,7 @@ class SectionIntro extends React.Component
     render()
     {
         return (
-            <section ref={this.root} className="SectionIntro Hide">
+            <section id="SectionIntro" ref={this.root} className="SectionIntro Hide">
                 <img className="Foto" src={OliviaFinance} alt="Logo de la agencia" />
                 
                 <div className="Background"></div>

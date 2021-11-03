@@ -35,7 +35,8 @@
     animation-timing-function: ease;
 }
 
-@keyframes Hide{
+@keyframes Hide
+{
     form
     {
         opacity: 1;
@@ -43,5 +44,44 @@
     to
     {
         opacity: 0;
+    }
+}
+
+.OutMenu
+{
+    animation-name: outMenu;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes outMenu
+{
+    from
+    {
+        transform: translateY(0) ;
+    }
+    to
+    {
+        transform: translateY(-100%) ;
+    }
+}
+
+.InMenu
+{
+    animation-name: inMenu;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes inMenu {
+    from
+    {
+        transform: translateY(-100%) ;
+    }
+    to
+    {
+        transform: translateY(0px) ;
     }
 }

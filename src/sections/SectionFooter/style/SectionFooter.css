@@ -1,0 +1,59 @@
+.SectionFooter
+{
+    block-size: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+}
+
+.SectionFooter ul
+{
+    inline-size: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: relative;
+    top: 30px;
+
+    list-style-type: none;
+
+}
+
+.SectionFooter ul li
+{
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+.SectionFooter ul li a
+{
+
+    border-bottom: white 1px solid;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+} 
+
+.SectionFooter ul li a:active
+{
+    transform: scale(1.1);
+}
+
+.SectionFooter p
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+

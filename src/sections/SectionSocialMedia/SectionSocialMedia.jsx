@@ -26,7 +26,7 @@ class SectionSocialMedia extends React.Component
     render()
     {
         return (
-            <section ref={this.root} className="SectionSocialMedia Hide">
+            <section id="SectionSocialMedia" ref={this.root} className="SectionSocialMedia Hide">
                 <h2>Contactenos</h2>
                 <p>Contacte con nosotros para mas información o visite nuestras paginas en redes sociales</p>
                 <div className="Background"></div>

@@ -41,7 +41,6 @@ class MenuHeader extends React.Component
         document.querySelector('body').classList.add("OverflowHidden")
 
     }
-
 }
 
 export default MenuHeader;

@@ -23,7 +23,7 @@ class ActionCardSplitter extends React.Component
                     <li>maxima tasa de cambio</li>
                     <li>comision minima</li>
                 </ul>
-                    <a href="./#Movil">Ir</a>
+                    <a href="./#SectionTasaCambio">Ir</a>
             </ActionCard>
 
             <ActionCard className={`ActionCard Second ${this.state.animationSecond}`}>
@@ -33,7 +33,7 @@ class ActionCardSplitter extends React.Component
                     <li>todo saldo principal</li>
                     <li>sin caducidad</li>
                 </ul>
-                <a href="./#">Ir</a>
+                <a href="./#SectionRecargaMovil">Ir</a>
             </ActionCard>
 
             <div className="Buttons">
