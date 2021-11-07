@@ -30,21 +30,13 @@
     color: var(--color-letter-soft);
 }
 
-.SectionSocialMedia .Background
-{
-    inline-size: 100%;
-    block-size: 28%;
-    
+.SectionSocialMedia .LeafBackground
+{   
     position: relative;
     bottom: 3%;
     z-index: -1;
 
     transform: rotatex(180deg);
-
-    background-image: url('./../../../assets/img/HojasLow.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.35;
 }
 
 .SectionSocialMedia .Container

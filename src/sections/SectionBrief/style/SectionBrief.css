@@ -81,14 +81,7 @@
     color: var(--color-letter-soft);
 }
 
-.SectionBrief .Hoja
+.SectionBrief .LeafSingleBackground
 {
-    inline-size: 100%;
-    block-size: 20%;
-
-    background-image: url('./../../../assets/img/HojaLow.png');
-    background-size: 70% 70%;
-    background-repeat: no-repeat;
-    opacity: 0.5;
     transform: rotateY(180deg);
 }

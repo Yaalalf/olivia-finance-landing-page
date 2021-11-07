@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ActionCardSplitter from './components/ActionCardSplitter';
+import LeafBackground from '../../global/components/LeafBackground';
 
 import OliviaFinance from './../../assets/img/LogoOliviaFinanceLow.png';
 
@@ -23,13 +24,17 @@ class SectionIntro extends React.Component
     {
         return (
             <section id="SectionIntro" ref={this.root} className="SectionIntro Hide">
-                <img className="Foto" src={OliviaFinance} alt="Logo de la agencia" />
+                <div className="LogoContainer">
+                    <img className="Foto" src={OliviaFinance} alt="Logo de la agencia" />
+                    <h1>Servicio de remesas <br /> a Cuba</h1>
+                </div>
                 
-                <div className="Background"></div>
+                <LeafBackground className="LeafRotateX" />
 
                 <ActionCardSplitter />
                 
-                <div className="Background1"></div>
+                <LeafBackground className="LeafRotateY" />
+
             </section>
         );
     }

@@ -1,0 +1,35 @@
+.LinkButton.LinkButtonExtern
+{
+    max-inline-size: 300px;
+    min-block-size: 0px;
+    inline-size: 70%;
+    block-size: 9%;
+
+    position: relative;
+
+    margin:0;
+    padding: 0;
+
+    background-color: var(--white);
+    
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    color: var(--color-gradient-dark);
+}
+
+.LinkButton.LinkButtonExtern span
+{
+    block-size: 23px;
+    inline-size: 23px;
+
+    display: inline-block;
+
+    position: relative;
+    top: 3px;
+    right: 3px;
+
+    background-image: url("./../../../assets/icons/WhatsappIcon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

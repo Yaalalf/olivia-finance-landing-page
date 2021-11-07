@@ -1,0 +1,11 @@
+.LeafBackground
+{
+    inline-size: 100%;
+    block-size: 28%;
+
+
+    background-image: url('./../../../assets/img/HojasLow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+}

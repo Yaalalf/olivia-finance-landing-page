@@ -6,6 +6,7 @@ import Instagram from './../../assets/img/InstragramLogo.png';
 import Whatsapp from './../../assets/icons/WhatsappIcon.svg';
 import Facebook from './../../assets/icons/FacebookIcon.svg';
 
+import LeafBackground from '../../global/components/LeafBackground';
 
 
 
@@ -29,19 +30,19 @@ class SectionSocialMedia extends React.Component
             <section id="SectionSocialMedia" ref={this.root} className="SectionSocialMedia Hide">
                 <h2>Contactenos</h2>
                 <p>Contacte con nosotros para mas información o visite nuestras paginas en redes sociales</p>
-                <div className="Background"></div>
+                <LeafBackground />
                 <div className="Container">
                 <div>
                     <img src={Instagram} alt="" />
-                    <a href="/#">Instagram</a>
+                    <a href="/#">Perfil</a>
                 </div>
                 <div>
                     <img src={Whatsapp} alt="" />
-                    <a href="/#">Whatsapp</a>
+                    <a href="https://wa.me/c/34643629160">Catalogo</a>
                 </div>
                 <div>
                     <img src={Facebook} alt="" />
-                    <a href="/#">Facebook</a>
+                    <a href="/#">Pagina</a>
                 </div>
                 </div>
             </section>

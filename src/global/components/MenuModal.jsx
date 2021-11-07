@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './style/MenuModal.css';
 
 class MenuModal extends React.Component
@@ -17,16 +19,21 @@ class MenuModal extends React.Component
     render()
     {
         return (
-            <nav ref={this.root} className={`MenuModal ${this.props.className}`}>
+            <nav ref={this.root} className={`MenuModal ${this.props.className}`} onClick={this.props.handleAnchor}>
                 <button onClick={this.onClickButton}>X</button>
                 <ul>
-                    <li><a href="./#SectionIntro" onClick={this.onClickLink}>Home</a></li>
-                    <li><a href="./#" onClick={this.onClickLink}>Envio de Remesas</a></li>
-                    <li><a href="./#SectionRecargaMovil" onClick={this.onClickLink}>Recarga Movil</a></li>
-                    <li><a href="./#SectionTasaCambio" onClick={this.onClickLink}>Tasa de Cambio</a></li>
+                    <li><Link id="Intro" to="/" onClick={this.onClickLink}>Home</Link></li>
+                    <li><Link id="Product" to="EnvioRemesas" onClick={this.onClickLink}>Envio de Remesas</Link></li>
+                    <li><Link id="TasaCambio" to="/" onClick={this.onClickLink}>Tasa de Cambio</Link></li>
+                    <li><Link id="RecargaMovil" to="/" onClick={this.onClickLink}>Recarga Movil</Link></li>
                 </ul>
             </nav>
         );
+    }
+
+    componentWillUnmount()
+    {
+        clearTimeout(this.idTimeout);
     }
 
     onClickButton = ()=>{
@@ -40,7 +47,7 @@ class MenuModal extends React.Component
     onClickLink = ()=>{
         this.root.current.classList.add("HideMenu");
         this.root.current.classList.remove("ShowMenu");
-        setTimeout(()=>{this.root.current.classList.add('DisplayNone')},500) 
+        this.idTimeout = setTimeout(()=>{this.root.current.classList.add('DisplayNone')},500) 
 
         document.querySelector('body').classList.remove("OverflowHidden");
     }
