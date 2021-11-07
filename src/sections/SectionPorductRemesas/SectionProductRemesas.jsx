@@ -31,7 +31,7 @@ class SectionProductRemesas extends React.Component
 
                 <p>Escoja una de nuestras opciones predefinidas o contactenos para un envio personalizado</p>
 
-                <LinkButtonExtern href="https://wa.me/c/34643629160" >Contactar</LinkButtonExtern>
+                <LinkButtonExtern href="https://api.whatsapp.com/send?phone=+34643629160" >Contactar</LinkButtonExtern>
 
                 <ProductList />
 
