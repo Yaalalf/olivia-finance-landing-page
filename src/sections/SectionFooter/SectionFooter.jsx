@@ -1,6 +1,8 @@
 import React from 'react';
 import './style/SectionFooter.css';
 
+import { Link } from 'react-router-dom';
+
 class SectionFooter extends React.Component
 {
     constructor(props) 
@@ -17,12 +19,12 @@ class SectionFooter extends React.Component
     render()
     {
         return (
-            <footer id="SectionFooter" ref={this.root} className="SectionFooter Hide">
+            <footer id="SectionFooter" ref={this.root} className="SectionFooter Hide" onClick={this.props.handleAnchor}>
                 <ul>
-                    <li><a href="./#SectionIntro">Home</a></li>
-                    <li><a href="./#">Envio de Remesas</a></li>
-                    <li><a href="./#SectionRecargaMovil">Recarga Movil</a></li>
-                    <li><a href="./#SectionTasaCambio">Tasa de Cambio</a></li>
+                <li><Link id="Intro" to="/" onClick={this.onClickLink}>Home</Link></li>
+                    <li><Link id="Product" to="EnvioRemesas" onClick={this.onClickLink}>Envio de Remesas</Link></li>
+                    <li><Link id="TasaCambio" to="/" onClick={this.onClickLink}>Tasa de Cambio</Link></li>
+                    <li><Link id="RecargaMovil" to="/" onClick={this.onClickLink}>Recarga Movil</Link></li>
                 </ul>  
 
                 <p>Olivia Finance <br /> Todos los derechos reservados</p>

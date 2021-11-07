@@ -67,26 +67,5 @@
     content: "o";
 }
 
-.ActionCard a
-{
-    min-block-size: 35px;
-    max-inline-size: 150px;
-    inline-size: 50%;
-    block-size: 20%;
 
-    display: block;
-
-    margin: 0 auto;
-    margin-top: 20px;
-    padding-top: 7px;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.247) 0 3px 6px;
-    
-    background-color: #34a5d7;
-    
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
 

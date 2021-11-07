@@ -1,6 +1,8 @@
 import React from 'react';
 import './style/SectionBrief.css';
 
+import LeafSingleBackground from '../../global/components/LeafSingleBackground';
+
 class SectionBrief extends React.Component
 {
 
@@ -30,7 +32,7 @@ class SectionBrief extends React.Component
                         <p>De lunes a viernes: 8:00am/ 20:00pm</p>
                     </div>
 
-                    <div className="Hoja"></div>
+                    <LeafSingleBackground />
             </section>
         );
     }

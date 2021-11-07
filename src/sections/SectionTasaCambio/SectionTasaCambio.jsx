@@ -1,5 +1,9 @@
 import React from 'react';
+
 import Calculator from './components/Calculator';
+import { Link } from 'react-router-dom';
+import LeafSingleBackground from '../../global/components/LeafSingleBackground';
+
 import './style/SectionTasaCambio.css';
 
 
@@ -21,7 +25,7 @@ class SectionTasaCambio extends React.Component
     {
         return (
             <section id="SectionTasaCambio" ref={this.root} className="SectionTasaCambio Hide">
-                <div className="Hoja"></div>
+                <LeafSingleBackground />
                 <div className="Content">
                     <div className="ContentHeader">
                         <h2><span></span>Tasa de Cambio</h2> 
@@ -31,6 +35,9 @@ class SectionTasaCambio extends React.Component
                         <p>1 EUR<span> </span>40cup</p>
                         <p>1 USD<span> </span>35cup</p>
                     </div>
+
+                    <Link id="Product" className="LinkButton" to="EnvioRemesas">Pedir envío</Link>
+                    
                 </div>
                 <Calculator />
             </section>

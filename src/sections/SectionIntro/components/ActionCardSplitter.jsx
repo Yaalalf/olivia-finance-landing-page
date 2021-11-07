@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ActionCard from './ActionCard';
+import { Link } from 'react-router-dom';
 
 import './style/ActionCardSplitter.css';
 
@@ -23,7 +24,8 @@ class ActionCardSplitter extends React.Component
                     <li>maxima tasa de cambio</li>
                     <li>comision minima</li>
                 </ul>
-                    <a href="./#SectionTasaCambio">Ir</a>
+
+                <Link id="Product" className="LinkButton" to="EnvioRemesas">Conocer más</Link>
             </ActionCard>
 
             <ActionCard className={`ActionCard Second ${this.state.animationSecond}`}>
@@ -33,7 +35,9 @@ class ActionCardSplitter extends React.Component
                     <li>todo saldo principal</li>
                     <li>sin caducidad</li>
                 </ul>
-                <a href="./#SectionRecargaMovil">Ir</a>
+                
+                <Link id="RecargaMovil" className="LinkButton" to="/">Conocer más</Link>
+
             </ActionCard>
 
             <div className="Buttons">

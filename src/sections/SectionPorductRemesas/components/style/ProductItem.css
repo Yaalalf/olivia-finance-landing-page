@@ -1,0 +1,53 @@
+.ProductItem
+{
+    inline-size: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+
+.ProductItem .Price
+{
+
+    min-inline-size: 150px;
+    min-block-size: 150px;
+    inline-size: 50%;
+    block-size: 170px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    box-shadow: #342e2e86 5px 5px 6px;
+
+    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+    
+}
+
+.ProductItem .Price p
+{
+    font-size: 8vw;
+    font-weight: 500;
+    color: white;
+}
+
+.ProductItem a
+{
+
+    margin-top: 15px;
+   
+
+    font-size: 2.0rem;
+    color: var(--color-letter-dark);
+}
+
+.ProductItem  a:last-of-type
+{
+    margin-bottom: 60px;
+}

@@ -10,26 +10,24 @@
 
 }
 
-.SectionTasaCambio .Hoja
+.SectionTasaCambio .LeafSingleBackground
 {
-    inline-size: 100%;
-    block-size: 15%;
+    block-size: 10%;
 
-    background-image: url('./../../../assets/img/HojaLow.png');
+    margin-top: 10px;
     background-size: 50%;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
+
 }
 
 .SectionTasaCambio .Content
 {
     inline-size: 100%;
-    block-size: 35%;
+    block-size: 45%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
     margin-bottom: 10px;
     
@@ -38,12 +36,14 @@
 .SectionTasaCambio .Content .ContentHeader
 {
     inline-size: 100%;
-    block-size: 50%;
+    block-size: 30%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .SectionTasaCambio .ContentHeader h2
 {
@@ -88,14 +88,17 @@
     color: var(--color-letter-soft);
 }
 
+
+
 .SectionTasaCambio .ContentTasaCambio
 {
+    min-inline-size: 150px;
     inline-size: 40%;
-    block-size: 40%;
+    block-size: 37%;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     margin-bottom: 10px;
@@ -107,6 +110,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--color-letter-constrast);
+    margin-bottom: 10px;
 }
 
 .SectionTasaCambio .ContentTasaCambio p span
@@ -122,4 +126,14 @@
     background-image: url('./../../../assets/icons/Transaccion.svg');
     background-repeat: no-repeat;
     background-size: contain;   
+}
+
+.SectionTasaCambio .Content .LinkButton 
+{
+    block-size: 13%;
+
+    margin-bottom: 10px;
+    padding-top: 14px;
+    border-radius: 17px;    
+    
 }

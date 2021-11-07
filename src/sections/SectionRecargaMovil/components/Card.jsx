@@ -1,5 +1,7 @@
 import React from 'react';
 
+import LinkButtonExtern from '../../../global/components/LinkButtonExtern';
+
 import './style/Card.css'
 
 class Card extends React.Component
@@ -16,7 +18,7 @@ class Card extends React.Component
                 <p>saldo principal</p>
                 </div>
                 <div className="BackgroundImg"></div>
-                <a href="./#">Ir</a>
+                <LinkButtonExtern href="https://api.whatsapp.com/send?phone=+34643629160">Recargar</LinkButtonExtern>
             </div>
         );
     }
