@@ -23,7 +23,7 @@ class MenuModal extends React.Component
                 <button onClick={this.onClickButton}>X</button>
                 <ul>
                     <li><Link id="Intro" to="/" onClick={this.onClickLink}>Home</Link></li>
-                    <li><Link id="Product" to="EnvioRemesas" onClick={this.onClickLink}>Envio de Remesas</Link></li>
+                    <li><Link id="Product" to="/EnvioRemesas" onClick={this.onClickLink}>Envio de Remesas</Link></li>
                     <li><Link id="TasaCambio" to="/" onClick={this.onClickLink}>Tasa de Cambio</Link></li>
                     <li><Link id="RecargaMovil" to="/" onClick={this.onClickLink}>Recarga Movil</Link></li>
                 </ul>

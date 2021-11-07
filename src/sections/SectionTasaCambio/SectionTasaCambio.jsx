@@ -36,7 +36,7 @@ class SectionTasaCambio extends React.Component
                         <p>1 USD<span> </span>35cup</p>
                     </div>
 
-                    <Link id="Product" className="LinkButton" to="EnvioRemesas">Pedir envío</Link>
+                    <Link id="Product" className="LinkButton" to="/EnvioRemesas">Pedir envío</Link>
                     
                 </div>
                 <Calculator />

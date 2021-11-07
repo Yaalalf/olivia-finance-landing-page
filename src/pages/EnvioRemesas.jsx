@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SectionProductRemesas from '../sections/SectionPorductRemesas/SectionProductRemesas';
+import SectionProductRemesas from '../sections/SectionProductRemesas/SectionProductRemesas';
 
 
 class EnvioRemesas extends React.Component
