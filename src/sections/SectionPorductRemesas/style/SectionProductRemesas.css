@@ -1,0 +1,74 @@
+.SectionProductRemesas
+{
+    min-block-size: 625px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 60px;
+}
+
+.SectionProductRemesas .HeaderContent
+{
+    inline-size: 100%;
+    block-size: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: relative;
+}
+
+.SectionProductRemesas .HeaderContent .LeafBackground
+{
+    inline-size: 30%;
+    block-size: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateX(180deg);
+    
+    background-size: 100%;
+    background-position-y: bottom;
+    opacity: 0.5;
+
+}
+
+.SectionProductRemesas .HeaderContent h2
+{
+    inline-size: 60%;
+    block-size: 100px;
+
+    z-index: 2;
+    
+    font-size: 8vw;
+    text-align: center;
+    color: var(--color-letter-dark);
+}
+
+.SectionProductRemesas > p
+{
+    inline-size: 80%;
+
+    margin-top: 20px;
+
+    font-size: 5vw;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-letter-soft);
+}
+
+.SectionProductRemesas .LinkButtonExtern
+{
+    inline-size: 45%;
+    block-size: 50px;
+
+    margin-top: 50px;
+    padding-top: 5px;
+
+    color: var(--color-letter-medium);
+}
