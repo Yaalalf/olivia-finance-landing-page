@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9ca4c7f.chunk.css",
-    "main.js": "/static/js/main.c2660110.chunk.js",
-    "main.js.map": "/static/js/main.c2660110.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7150f7eb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7150f7eb.js.map",
-    "static/js/2.05e5a385.chunk.js": "/static/js/2.05e5a385.chunk.js",
-    "static/js/2.05e5a385.chunk.js.map": "/static/js/2.05e5a385.chunk.js.map",
-    "static/js/3.b6dc02cc.chunk.js": "/static/js/3.b6dc02cc.chunk.js",
-    "static/js/3.b6dc02cc.chunk.js.map": "/static/js/3.b6dc02cc.chunk.js.map",
+    "main.css": "/static/css/main.43d4580f.chunk.css",
+    "main.js": "/static/js/main.a83e1514.chunk.js",
+    "main.js.map": "/static/js/main.a83e1514.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd4a243b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd4a243b.js.map",
+    "static/js/2.be2fbba9.chunk.js": "/static/js/2.be2fbba9.chunk.js",
+    "static/js/2.be2fbba9.chunk.js.map": "/static/js/2.be2fbba9.chunk.js.map",
+    "static/js/3.fe542128.chunk.js": "/static/js/3.fe542128.chunk.js",
+    "static/js/3.fe542128.chunk.js.map": "/static/js/3.fe542128.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6b70a0670130dbf36177f5dfc3fcff6f.js": "/precache-manifest.6b70a0670130dbf36177f5dfc3fcff6f.js",
+    "precache-manifest.967f6073bfa588ab8f558a9e277634d8.js": "/precache-manifest.967f6073bfa588ab8f558a9e277634d8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c9ca4c7f.chunk.css.map": "/static/css/main.c9ca4c7f.chunk.css.map",
-    "static/js/2.05e5a385.chunk.js.LICENSE.txt": "/static/js/2.05e5a385.chunk.js.LICENSE.txt",
+    "static/css/main.43d4580f.chunk.css.map": "/static/css/main.43d4580f.chunk.css.map",
+    "static/js/2.be2fbba9.chunk.js.LICENSE.txt": "/static/js/2.be2fbba9.chunk.js.LICENSE.txt",
     "static/media/Confiabilidad.svg": "/static/media/Confiabilidad.86ad6a1b.svg",
     "static/media/FacebookIcon.svg": "/static/media/FacebookIcon.e44ebc92.svg",
     "static/media/ActionCardSplitter.css": "/static/media/Flecha.b85acb64.svg",
-    "static/media/SectionTasaCambio.css": "/static/media/Transaccion.15b76547.svg",
-    "static/media/SectionSocialMedia.css": "/static/media/HojasLow.0aa3eb37.png",
+    "static/media/LeafSingleBackground.css": "/static/media/HojaLow.301ae403.png",
+    "static/media/LeafBackground.css": "/static/media/HojasLow.0aa3eb37.png",
     "static/media/InstragramLogo.png": "/static/media/InstragramLogo.a6179871.png",
     "static/media/SectionFeatures.css": "/static/media/LogoLetraOLow.e25b1bb0.png",
     "static/media/LogoLetraOenBlancoLow.png": "/static/media/LogoLetraOenBlancoLow.8d363c9c.png",
@@ -29,12 +29,13 @@
     "static/media/Rapidez.svg": "/static/media/Rapidez.bb2ab684.svg",
     "static/media/App.css": "/static/media/Roboto-ThinItalic.7384da64.ttf",
     "static/media/Seguridad.svg": "/static/media/Seguridad.3c0920d9.svg",
-    "static/media/WhatsappIcon.svg": "/static/media/WhatsappIcon.944088e4.svg"
+    "static/media/SectionTasaCambio.css": "/static/media/Transaccion.15b76547.svg",
+    "static/media/LinkButtonExtern.css": "/static/media/WhatsappIcon.944088e4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7150f7eb.js",
-    "static/js/2.05e5a385.chunk.js",
-    "static/css/main.c9ca4c7f.chunk.css",
-    "static/js/main.c2660110.chunk.js"
+    "static/js/runtime-main.bd4a243b.js",
+    "static/js/2.be2fbba9.chunk.js",
+    "static/css/main.43d4580f.chunk.css",
+    "static/js/main.a83e1514.chunk.js"
   ]
 }

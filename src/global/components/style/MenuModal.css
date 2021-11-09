@@ -11,7 +11,7 @@
     z-index: 10;
     top: 0;
 
-    background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
+    background-image: linear-gradient(var(--linear-gradient-primary));
 
 }
 
@@ -25,11 +25,11 @@
     border: none;
     outline: none;
 
-    background-color: rgba(255, 255, 255, 0);
+    background-color: var(--background-color-opacity-full);
 
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: var(--color-letter-white);
 
 }
 
@@ -68,7 +68,7 @@
     font-size: 2.6rem;
     font-weight: 600;
     text-decoration: none;
-    color: white;
+    color: var(--color-letter-white);
 } 
 
 .MenuModal ul li a:active

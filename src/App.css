@@ -32,6 +32,11 @@ html
 
 :root
 {
+    --linear-gradient-primary :#72C1FF , #2D80C0 ;
+    --linear-gradient-primary-twist: #2D80C0, #72C1FF; 
+
+    --background-color-opacity-full: rgba(255, 255, 255, 0); 
+
     --color-gradient-dark: #2D80C0;
     --color-gradient-soft: #72C1FF;
 
@@ -45,6 +50,8 @@ html
     --color-letter-medium: #4e4b4b;
     --color-letter-dark: #2c2c30;    
     --color-letter-constrast:#7272B8;
+
+    --color-letter-white: #fff;
 
     --color-calculator:#586374;
 
