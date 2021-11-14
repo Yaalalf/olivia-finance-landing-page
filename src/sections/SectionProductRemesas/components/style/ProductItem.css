@@ -11,43 +11,63 @@
 
 }
 
-.ProductItem .Price
+.ProductItem .Product
 {
 
     min-inline-size: 150px;
     min-block-size: 150px;
-    inline-size: 50%;
+    inline-size: 70%;
     block-size: 170px;
     
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    border-radius: 20px;
-    box-shadow: #342e2e86 5px 5px 6px;
+    position: relative;
+
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: #342e2e86 0px 0px 9px;
 
     background-image: linear-gradient(var(--color-gradient-dark),var(--color-gradient-soft));
     
 }
 
-.ProductItem .Price p
+.ProductItem .Product p
 {
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 500;
     color: white;
 }
 
-.ProductItem a
+.ProductItem .Product .LinkButtonExtern
 {
+    block-size: 19%;
+    inline-size: 40%;
+    
+    position: relative;
+    top: 30px;
 
-    margin-top: 15px;
-   
+    margin-top: 0;
+    padding-top: 7px;
+    border-radius: 5px;
+    box-shadow: none;
 
-    font-size: 2.0rem;
-    color: var(--color-letter-dark);
+    background-color: white;
+    
+    font-size: 4vw;
+    line-height: 4vw;
+    color: var(--color-letter-medium);
+
 }
 
-.ProductItem  a:last-of-type
+.ProductItem:last-of-type
 {
-    margin-bottom: 60px;
+    margin-bottom: 300px;
+}
+
+.ProductItem .Product .LinkButtonExtern span
+{
+    display: none;
 }

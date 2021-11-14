@@ -30,15 +30,21 @@ class SectionFeatures extends React.Component
                 <div className="CardContainer">
                     <FeatureCard src={Seguridad} alt="Un escudo sìmbolo de seguridad">
                         <h3>Seguridad :</h3>
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p>Utilizamos plataformas de pago reconocidas por su efectividad para 
+                            asegurar que su envio llegue sin empedimentos, en caso de 
+                            perdida no se preocupe tendra el 100% del reembolso </p>
                     </FeatureCard>
                     <FeatureCard src={Rapidez} alt="Un reloj hiendo a toda velocidad">
                         <h3>Rapidez :</h3>
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p>Enviar dinero a Cuba nunca habia sido tan rapido, tenemos tiempo de entrega de 
+                            minutos para remesas a tarjetas de banco en la isla y demora de menos de 3 dias 
+                            para entregas directas</p>
                     </FeatureCard>
                     <FeatureCard src={Confiabilidad} alt="Apretòn de manos">
                         <h3>Confiabilidad :</h3>
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                        <p>Llevamos tiempo en este negocio y nuestros clientes habituales dan testimonio 
+                            de nuestra efectividad. Nuestro servicio de atencion al cliente esta activo 
+                            en todo momento para tenerlo al tanto del estado de su envio </p>
                     </FeatureCard>
                 </div>
             </section>

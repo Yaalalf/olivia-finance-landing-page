@@ -6,7 +6,7 @@ import SectionProductRemesas from '../sections/SectionProductRemesas/SectionProd
 class EnvioRemesas extends React.Component
 {
   constructor(props) {
-
+    
     super(props);
 
     this.sectionProductRemesas = React.createRef();
@@ -37,7 +37,7 @@ getRoot()
   }
 
   onObserver = (entries,observer)=>{
-    console.log("intersecte");
+
     let intersecting = entries.filter((elem)=>elem.isIntersecting);
     let notIntersecting = entries.filter((elem)=>!(elem.isIntersecting));
     if(intersecting)

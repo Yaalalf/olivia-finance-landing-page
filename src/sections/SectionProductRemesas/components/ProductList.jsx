@@ -20,8 +20,8 @@ class ProductList extends React.Component
     {
         return (
             <div className="ProductList">
-                {this.products.map((element,index)=>
-                    <ProductItem key={index} price={element.price} href={element.href}/>
+                {this.products.map((element)=>
+                    <ProductItem key={element.href} price={element.price} href={element.href}/>
                 )}
             </div>
         );
