@@ -3,11 +3,12 @@ import logo from './../../assets/img/LogoLetraOenBlancoLow.png';
 import './style/MenuHeader.css';
 
 import MenuModal from './MenuModal';
-
+import MenuLineal from './MenuLineal';
 class MenuHeader extends React.Component
 {
     state={
-        displayNone: 'DisplayNone'
+        displayNone: 'DisplayNone',
+        matches : matchMedia('(min-width : 768px)')
     };
 
     constructor(props) 
@@ -26,11 +27,19 @@ class MenuHeader extends React.Component
 
     render()
     {
+        let menuModal = (<React.Fragment>
+                            <button className="Menu" onClick={this.onClickModal}></button>
+                            <MenuModal ref={this.menuModal} className={this.state.displayNone} handleAnchor={this.props.handleAnchor} /> 
+                        </React.Fragment>);
+        
+        let menuLineal =(<React.Fragment>
+                            <MenuLineal className={this.state.displayNone} handleAnchor={this.props.handleAnchor} /> 
+                        </React.Fragment>); 
+        let menu = (this.state.matches) ? menuLineal : menuModal;
         return (
             <header ref={this.root} className="MenuHeader">
                 <img className="Logo" src={logo} alt="Logo de Olivia finance en blanco"/>
-                <button className="Menu" onClick={this.onClick}></button>
-                <MenuModal ref={this.menuModal} className={this.state.displayNone} handleAnchor={this.props.handleAnchor} /> 
+                {menu}
             </header>
         );
     }
@@ -38,9 +47,10 @@ class MenuHeader extends React.Component
     componentDidMount()
     {
         document.onscroll = this.onScroll;
+        window.addEventListener("resize",this.onResizeHeader);
     }
 
-    onClick = ()=>{
+    onClickModal = ()=>{
         this.menuModal.current.getRoot().classList.remove("DisplayNone");
         this.menuModal.current.getRoot().classList.add("ShowMenu");
         this.menuModal.current.getRoot().classList.remove("HideMenu");
@@ -49,6 +59,9 @@ class MenuHeader extends React.Component
 
     }
 
+    onResizeHeader = (e)=>{
+        this.setState({matches : matchMedia("(min-width : 768px)").matches })
+    }
     
     onScroll = (e)=>{
         let newScrollPosition = e.path[1].scrollY;

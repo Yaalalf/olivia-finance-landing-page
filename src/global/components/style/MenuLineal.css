@@ -1,0 +1,81 @@
+.MenuLineal
+{
+    block-size: 100%;
+    inline-size: 70%;
+}
+
+.MenuLineal ul
+{
+    block-size: 100%;
+ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+ 
+    padding-right: 10px;
+
+    list-style-type: none;
+}
+
+.MenuLineal ul li
+{
+    padding-bottom: 8px;
+    padding-right: 4%;
+    text-align: center;
+}
+
+.MenuLineal ul li::before
+{
+    content: "";
+   
+    block-size: 20px;
+    inline-size: 1px;
+   
+    display: inline-block;
+
+    margin-right: 20px;
+
+    position: relative;
+    top: 6px;
+   
+    background-color: var(--color-letter-white);
+}
+
+.MenuLineal ul li a
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-letter-white);
+} 
+
+.MenuLineal ul li a:active
+{
+    transform: scale(1.1);
+}
+
+@media (min-width : 1024px)
+{
+    .MenuLineal ul li::before
+    {
+        block-size: 30px;
+        inline-size: 2px;
+        
+
+        margin-right: 20px;
+
+        position: relative;
+        top: 7px;
+    }
+
+    .MenuLineal ul li
+{
+    padding-bottom: 8px;
+    padding-right: 3%;
+}
+
+    .MenuLineal ul li a
+    {
+        font-size: 1.8rem;
+    } 
+}

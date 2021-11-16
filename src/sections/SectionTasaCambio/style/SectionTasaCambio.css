@@ -137,3 +137,159 @@
     border-radius: 17px;    
     
 }
+
+@media (min-width : 426px)
+{
+    .SectionTasaCambio .LeafSingleBackground
+    {
+        block-size: 10%;
+        background-size: contain;
+    }
+}
+
+@media (min-width : 768px)
+{
+    .SectionTasaCambio .LeafSingleBackground
+    {
+        block-size: 5%;
+        background-size: contain;
+    }
+
+    .SectionTasaCambio .ContentHeader p
+    {
+        font-size: 1.8rem;
+    }
+
+    .SectionTasaCambio .ContentTasaCambio
+    {
+        inline-size: 20%;
+
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+    .CalculatorContainer
+    {
+        block-size: 40%;
+        inline-size: 50%;
+    }
+
+    .CalculatorContainer p
+    {
+        font-size: 1.7rem;
+    }
+
+    .CalculatorContainer .Calculator div span
+    {
+        font-size: 2.0rem;
+    }
+}
+
+@media (min-width : 1024px)
+{
+   
+    .SectionTasaCambio
+    {
+        
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+
+    }
+
+    .SectionTasaCambio .LeafSingleBackground
+    {
+        block-size: 100px;
+
+        position: absolute;
+        top: 0;
+    }
+
+    .SectionTasaCambio .Content
+    {
+        inline-size: 50%;
+        block-size: 100%;
+
+        justify-content: space-around;
+    }
+
+    .SectionTasaCambio .Content .ContentHeader
+    {
+        block-size: auto;
+        margin-top: 60px;
+    }
+
+    .SectionTasaCambio .ContentHeader h2
+    {
+        font-size: 4vw;
+        padding-right: 1%;
+    }
+
+    .SectionTasaCambio .ContentHeader span
+    {
+        block-size: 100%;
+        inline-size: 200px;
+    }
+
+    .SectionTasaCambio .ContentHeader p
+    {
+        inline-size: 60%;
+
+        margin-top: 50px;
+
+        font-size: 2.3rem;
+
+    }
+
+    .SectionTasaCambio .ContentTasaCambio
+    {
+        inline-size: 30%;
+        block-size: 20%;
+    }
+
+    .SectionTasaCambio .ContentTasaCambio p 
+    {
+        font-size: 2vw;
+    }
+
+    .SectionTasaCambio .ContentTasaCambio p span
+    {
+        block-size: 40px;
+        inline-size: 40px;
+
+        top: 12px;
+        background-position: center;
+    }
+    .CalculatorContainer
+    {
+        max-inline-size: 550px;
+        block-size: 50%;
+        inline-size: 40%;
+        margin-bottom: 0;
+        align-self: center;
+    }
+
+    .CalculatorContainer h2
+    {
+        font-size: 5rem;
+    }
+
+    .CalculatorContainer p
+    {
+        inline-size: 60%;
+        font-size: 2rem;
+    }
+
+    .SectionTasaCambio .Content .LinkButton
+    {
+        max-inline-size: none;
+        inline-size: 80%;
+        block-size: 8%;
+
+        position: relative;
+        bottom: 50px;
+
+        font-size: 2.8rem;
+    }
+}

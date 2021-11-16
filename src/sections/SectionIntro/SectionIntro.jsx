@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ActionCardSplitter from './components/ActionCardSplitter';
+import ActionCardNotSplitter from './components/ActionCardNotSplitter';
 import LeafBackground from '../../global/components/LeafBackground';
 
 import OliviaFinance from './../../assets/img/LogoOliviaFinanceLow.png';
@@ -13,8 +14,15 @@ class SectionIntro extends React.Component
     constructor(props) {
         super(props);
         this.root = React.createRef();
+
+        this.state = {matches: matchMedia("(min-width : 1024px)").matches };
+
       }
     
+      onResizeIntro = (e)=>{
+        this.setState({matches : matchMedia("(min-width : 1024px)").matches })
+    }
+
     getRoot()
     {
         return this.root.current;
@@ -22,6 +30,8 @@ class SectionIntro extends React.Component
 
     render()
     {
+
+
         return (
             <section id="SectionIntro" ref={this.root} className="SectionIntro Hide">
                 <div className="LogoContainer">
@@ -31,12 +41,17 @@ class SectionIntro extends React.Component
                 
                 <LeafBackground className="LeafRotateX" />
 
-                <ActionCardSplitter />
+                {(this.state.matches)? <ActionCardNotSplitter /> : <ActionCardSplitter />}
                 
                 <LeafBackground className="LeafRotateY" />
 
             </section>
         );
+    }
+
+    componentDidMount()
+    {
+        window.addEventListener("resize",this.onResizeIntro);
     }
 
     

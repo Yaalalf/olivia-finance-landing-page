@@ -23,7 +23,7 @@ class SectionBrief extends React.Component
             <section id="SectionBrief" ref={this.root} className="SectionBrief Hide">
                     <div className="Brief">
                         <h2>Envie su remesa a Cuba al instante</h2>
-                        <p></p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, maiores voluptatem tenetur, nobis id natus velit sed maxime vero explicabo, ea eaque dolores quaerat illo cupiditate nemo quam reprehenderit omnis!</p>
                     </div>
                     
                     <div className="Horario">

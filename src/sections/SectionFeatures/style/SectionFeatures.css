@@ -57,3 +57,85 @@
     align-items: center;
    
 }
+
+@media (min-width : 426px)  
+{
+    .FeatureCard
+    {
+        block-size: 30%;
+    }
+
+    .FeatureCard .FeatureContent p
+    {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (min-width : 768px)  
+{
+    .FeatureCard .FeatureContent p
+    {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (min-width : 1024px)  
+{
+    .SectionFeatures h2
+    {
+        font-size: 4vw;
+        inline-size: 60%;
+    }
+    .SectionFeatures .CardContainer
+    {
+        flex-direction: row;
+    }
+    .FeatureCard
+    {
+        max-inline-size: 350px;
+        block-size: 70%;
+        inline-size: 28%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .FeatureCard .FeatureIcon
+    {
+        inline-size: 70%;
+        block-size: 20%;
+    }
+
+    .FeatureCard:nth-of-type(1) .FeatureIcon
+    {
+        position: relative;
+        right: 20px;
+    }
+
+    .FeatureCard .FeatureContent
+    {
+        block-size: 70%;
+        align-items: center;
+
+        justify-content: flex-start;
+    }
+
+    .FeatureCard .FeatureContent h3
+    {
+        font-size: 3.5rem;
+    }
+
+    .FeatureCard .FeatureContent p
+    {
+        inline-size: 80%;
+
+        margin-top: 30px;
+
+        font-size: 1.7rem;
+        line-height: 2.7rem;
+        text-align: center;
+    }
+}

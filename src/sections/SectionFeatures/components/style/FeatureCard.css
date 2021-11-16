@@ -1,6 +1,6 @@
 .FeatureCard
 {
-    block-size: 40vw;
+    block-size: 25%;
     inline-size: 90%;
 
     display: flex;
@@ -35,9 +35,10 @@
 
 .FeatureCard .FeatureContent p
 {
-    inline-size: 95%;
+    inline-size: 90%;
 
     font-size: 3.6vw;
     font-weight: 400;
     line-height: 1.7rem;
+    
 }

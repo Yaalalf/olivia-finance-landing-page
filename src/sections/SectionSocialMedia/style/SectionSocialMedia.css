@@ -73,3 +73,89 @@
 
     color: var(--color-letter-medium);
 }
+
+
+@media (min-width : 426px) 
+{
+    .SectionSocialMedia
+    {
+        max-block-size: 50vh;
+
+        justify-content: space-between;
+    }
+
+    .SectionSocialMedia h2
+    {
+        margin-top: 30px;
+        inline-size: auto;
+    }
+
+    .SectionSocialMedia .Container
+    {
+        block-size: 100px;
+        inline-size: 70%;
+
+        flex-direction: row;
+        justify-content: space-between;
+
+        bottom: 0px;
+    }
+
+    .SectionSocialMedia .Container div
+    {
+        flex-direction: row;
+    }
+
+    .SectionSocialMedia .Container div img
+    {
+        inline-size: 40px;
+    }
+
+    .SectionSocialMedia .LeafBackground
+    {
+        order: 2;
+        block-size: 40%;
+        opacity: 0.7;
+    }
+
+    .SectionSocialMedia .Container div a
+    {
+        margin-left: 5px;
+        font-size: 1.5rem;
+    }   
+}
+
+
+@media (min-width : 800px) 
+{
+    .SectionSocialMedia .Container
+    {
+        inline-size: 50%;
+    }
+}
+
+@media (min-width : 1024px) 
+{
+    .SectionSocialMedia
+    {
+        max-block-size: 30vh;
+        position: relative;
+    }
+
+    .SectionSocialMedia .Container
+    {
+        inline-size: 40%;
+    }
+
+    .SectionSocialMedia .LeafBackground
+    {
+        inline-size: 150px;
+        block-size: 200px;
+        position: absolute;
+        left: 0;
+        bottom: 40px;
+        background-size:contain ;
+        z-index: 10;
+    }
+    
+}

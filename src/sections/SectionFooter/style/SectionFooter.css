@@ -57,3 +57,62 @@
     color: white;
 }
 
+
+@media (min-width : 426px) 
+{
+   
+    .SectionFooter 
+    {
+        max-height: 100px;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .SectionFooter ul
+    {
+        inline-size: 70%;
+
+        flex-direction: row;
+        justify-content: flex-start;
+
+        margin-left: 10px;
+
+        top: 0px;
+
+    }
+
+    .SectionFooter ul li
+    {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .SectionFooter ul li a
+    {
+        font-size: 1em;
+    }
+
+    .SectionFooter p
+    {
+        inline-size: auto;
+
+        padding-right: 10px;
+
+        font-size: 1em;
+
+    }
+}
+
+@media (min-width : 800px) 
+{
+    .SectionFooter ul li a
+    {
+        font-size: 1.5em;
+    }
+
+    .SectionFooter p
+    {
+        font-size: 1.5em;
+    }
+}
