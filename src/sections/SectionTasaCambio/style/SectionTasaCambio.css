@@ -292,4 +292,9 @@
 
         font-size: 2.8rem;
     }
+
+    .CalculatorContainer .Calculator input
+    {
+        font-size: 2.5rem;
+    }
 }

@@ -9,9 +9,12 @@
     justify-content: space-around;
 
     margin-bottom: 50px;
+    border-radius: 2vw;
     box-shadow:rgb(0 0 0 / 16%) 0 3px 6px ;
     
-    color: var(--color-letter-medium);
+    background-image: linear-gradient(var(--linear-gradient-primary-twist));
+
+    color: var(--color-letter-white);
 }
 
 .CalculatorContainer .Calculator
@@ -31,7 +34,7 @@
 {
     font-size: 7vw;
     font-style: italic;
-    color: var(--color-calculator);
+    color: var(--color-letter-white);
 }
 
 .CalculatorContainer  p
@@ -41,7 +44,7 @@
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
-    color: var(--color-calculator); 
+    color: var(--color-letter-white); 
 }
 
 
@@ -50,14 +53,14 @@
     display: flex;
 
     margin-bottom: 10px;
-    border-bottom: solid 2px var(--color-letter-soft);
+    border-bottom: solid 2px var(--color-letter-white);
 }
 
 .CalculatorContainer .Calculator div span
 {
     font-size: 4.5vw;
     font-weight: 600;
-    color: var(--color-letter-soft);
+    color: var(--color-letter-white);
 }
 
 .CalculatorContainer .Calculator input
@@ -74,7 +77,7 @@
     
     text-align: center;
     font-size: 1.8rem;
-    color: var(--color-letter-soft);
+    color: var(--color-letter-white);
 
 }
 

@@ -124,7 +124,7 @@
     {
         font-size: 3.0rem;
         top: clamp(205px, 77% , 230px );
-        left: clamp(165px, 40% , 300px );
+        left: 200px;
     }
 
     .ActionCard
@@ -132,10 +132,6 @@
         inline-size: 60%;
     }
 
-    .ActionCardSplitter .ActionCard.Second
-    {
-
-    }
 
     .ActionCard .Content
     {
@@ -184,6 +180,7 @@
         bottom: 180px;
         left: 600px;
         z-index: 2;
+        transform: none;
     }
 
     .SectionIntro .LogoContainer .Foto
@@ -198,7 +195,7 @@
     
 }
 
-@media (min-width : 1024px)  
+@media (min-width : 1440px)  
 {
     .SectionIntro .LogoContainer
     {
@@ -208,8 +205,9 @@
         align-self: flex-start;
         
         position: relative;
-        left: 100px;
-        transform: scale(1.4);
+        top: 150px;
+        left: 210px;
+        transform: scale(2);
     }
 
     .SectionIntro .LogoContainer h1
@@ -219,35 +217,53 @@
         top: 260px;
     }
 
-    .ActionCardSplitter
-    {
-        overflow: visible;
-    }
 
     .ActionCard.First
-    {
-        position: absolute;
+    {  
         bottom: -20px;
-        left: 450px;
-        z-index: 1;
+        left: 850px;   
     }
 
-    .ActionCard.Second
-    {
-        position: absolute;
+    .ActionCardSplitter .ActionCard.Second
+    {   
         bottom: 180px;
-        left: 100px;
-        z-index: 2;
+        left: 1000px;
+    }
+}
+
+@media (min-width : 1760px)  
+{
+    .SectionIntro .LogoContainer
+    {
+        inline-size: 450px;
+        block-size: 450px;
+
+        align-self: flex-start;
+        
+        position: relative;
+        top: 150px;
+        left: 210px;
+        transform: scale(2.5);
     }
 
-    .SectionIntro .LogoContainer .Foto
+    .SectionIntro .LogoContainer h1
     {
-        inline-size: 100%;
-        block-size: 100%;
+        font-size: 3rem;
+        block-size: auto;
+        left: 100px;
+        top: 300px;
     }
-    .SectionIntro .LeafRotateX
-    {
-        order: 2;
+
+
+    .ActionCard.First
+    {  
+        bottom: -20px;
+        left: 1100px;   
     }
-    
+
+    .ActionCardSplitter .ActionCard.Second
+    {   
+        bottom: 180px;
+        left: 1200px;
+    }
 }

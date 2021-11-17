@@ -1,6 +1,6 @@
 .ProductItem
 {
-    inline-size: 80%;
+    inline-size: 350px;
 
     display: flex;
     flex-direction: column;
@@ -16,8 +16,8 @@
 
     min-inline-size: 150px;
     min-block-size: 150px;
-    inline-size: 70%;
-    block-size: 170px;
+    inline-size:200px;
+    block-size: 200px;
     
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     top: 30px;
 
     margin-top: 0;
-    padding-top: 7px;
+    padding-top: 10px;
     border-radius: 5px;
     box-shadow: none;
 
@@ -71,3 +71,4 @@
 {
     display: none;
 }
+

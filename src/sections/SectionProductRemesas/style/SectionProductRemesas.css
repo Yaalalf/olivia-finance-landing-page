@@ -72,3 +72,141 @@
 
     color: var(--color-letter-medium);
 }
+
+@media (min-width : 500px)
+{
+    .SectionProductRemesas .HeaderContent .LeafBackground
+    {
+        background-size: contain;
+    }
+
+    .SectionProductRemesas .HeaderContent h2
+    {
+        inline-size: 40%;
+        font-size: 5vw;
+    }
+
+    .SectionProductRemesas > p
+    {
+        font-size: 3.5vw;
+    }
+
+    .ProductList
+    {
+        block-size: auto;
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 180px;
+        justify-items: center;
+        align-items: center;
+    
+        margin-bottom: 100px;
+
+    }
+
+    .ProductItem
+    {
+        
+        inline-size: 150px;
+        block-size: 150px;
+    }
+
+    .ProductItem .Product
+    {
+        inline-size: 100px;
+        block-size: 100px;
+    
+        margin-top: 0;
+    }
+
+    .ProductItem .Product p
+    {
+        font-size: 3rem;
+    }
+
+    .ProductItem .Product .LinkButtonExtern
+    {
+        font-size: 1.5rem;
+        padding-top: 2px;
+    }
+
+    .ProductItem:last-of-type
+    {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media (min-width : 1024px)
+{
+
+    .ProductList
+    {
+        block-size: auto;
+        inline-size: 1024px;
+    }
+
+    .ProductItem
+    {
+        
+        inline-size: 25px;
+        block-size: 250px;
+    }
+
+    .ProductItem .Product
+    {
+        inline-size: 170px;
+        block-size: 170px;
+    }
+
+    .ProductItem .Product .LinkButtonExtern
+    {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width : 1440px)
+{
+
+    .SectionProductRemesas .HeaderContent h2
+    {
+        font-size: 4vw;
+    }
+
+    .SectionProductRemesas > p
+    {
+        font-size: 3vw;
+    }
+
+    .ProductList
+    {
+        block-size: auto;
+        inline-size: 1024px;
+
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-auto-rows: 200px;
+        justify-items: center;
+        align-items: center;
+    
+        margin-bottom: 100px;
+
+    }
+    .ProductItem .Product .LinkButtonExtern
+    {
+        padding-top: 7px;
+        line-height: normal;
+    }
+
+    div.ProductItem:nth-of-type(9)
+    {
+        grid-column: 5/6 ;
+    }
+
+    div.ProductItem:nth-of-type(8)
+    {
+        grid-column: 4/5 ;
+    }
+}
