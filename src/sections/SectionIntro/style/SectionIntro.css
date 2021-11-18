@@ -158,7 +158,7 @@
     {
         block-size: auto;
         left: 100px;
-        top: 260px;
+        top: 31vh;
     }
 
     .ActionCardSplitter
@@ -214,7 +214,8 @@
     {
         block-size: auto;
         left: 100px;
-        top: 260px;
+        top: 31vh;
+
     }
 
 
@@ -251,7 +252,8 @@
         font-size: 3rem;
         block-size: auto;
         left: 100px;
-        top: 300px;
+        top: 31vh;
+
     }
 
 

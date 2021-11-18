@@ -8,7 +8,7 @@ class MenuHeader extends React.Component
 {
     state={
         displayNone: 'DisplayNone',
-        matches : matchMedia('(min-width : 768px)')
+        matches : matchMedia('(min-width : 768px)').matches
     };
 
     constructor(props) 

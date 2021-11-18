@@ -41,6 +41,11 @@ class SectionRecargaMovil extends React.Component
         window.addEventListener("resize",this.onResizeRecargaMovil);
     }
 
+    componentWillUnmount()
+    {
+        window.removeEventListener("resize",this.onResizeRecargaMovil);
+
+    }
     onResizeRecargaMovil = (e)=>{
         this.setState({matches : matchMedia("(min-width : 1024px)").matches })
     }

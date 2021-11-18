@@ -54,6 +54,11 @@ class SectionIntro extends React.Component
         window.addEventListener("resize",this.onResizeIntro);
     }
 
+    componentWillUnmount()
+    {
+        window.removeEventListener("resize",this.onResizeIntro);
+
+    }
     
 }
 

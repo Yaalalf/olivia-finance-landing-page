@@ -1,6 +1,7 @@
 .ProductItem
 {
-    inline-size: 350px;
+    inline-size: 100%;
+    max-inline-size: 350px;
 
     display: flex;
     flex-direction: column;
