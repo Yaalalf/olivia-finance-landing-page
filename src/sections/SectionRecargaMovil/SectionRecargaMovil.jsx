@@ -8,7 +8,7 @@ import './style/SectionRecargaMovil.css'
 class SectionRecargaMovil extends React.Component
 {
     state={
-        matches : matchMedia('(min-width : 1024px)')
+        matches : matchMedia("(min-width : 1024px)").matches
     };
     constructor(props) 
     {
@@ -39,6 +39,7 @@ class SectionRecargaMovil extends React.Component
     componentDidMount()
     {
         window.addEventListener("resize",this.onResizeRecargaMovil);
+        console.log(this.state.matches)
     }
 
     componentWillUnmount()

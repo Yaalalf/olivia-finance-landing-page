@@ -92,6 +92,17 @@
         max-inline-size: 411px;
     }
 
+    .ActionCard h2
+    {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+
+    .ActionCard ul
+    {
+        font-size: 1.5rem;
+    }
+
     .ActionCard .LinkButton
     {
         block-size: 30%;
@@ -99,17 +110,17 @@
 
         display: inline-block;
 
-        padding-top: 18px;
+        padding-top: 15px;
         
         position: absolute;
         right: 20px;
-        top: 150px;
+        top: 110px;
 
     }
 
     .ActionCardSplitter .Buttons
     {
-        inline-size: 450px;
+        inline-size: 390px;
     }
 }
 
@@ -130,8 +141,35 @@
     .ActionCard
     {
         inline-size: 60%;
+        max-block-size: 180px;
     }
 
+    .ActionCard h2
+    {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    .ActionCard .LinkButton
+    {
+        block-size: 25%;
+        inline-size: 50%;
+
+        display: inline-block;
+
+        padding-top: 15px;
+        
+        position: absolute;
+        right: 20px;
+        top: 140px;
+
+    }
+
+    .ActionCardSplitter .Buttons
+    {
+        inline-size: 450px;
+        top:75px;
+    }
 
     .ActionCard .Content
     {
@@ -144,8 +182,8 @@
 {
     .SectionIntro .LogoContainer
     {
-        inline-size: 450px;
-        block-size: 450px;
+        inline-size: 350px;
+        block-size: 350px;
 
         align-self: flex-start;
         
@@ -159,6 +197,9 @@
         block-size: auto;
         left: 100px;
         top: 31vh;
+
+        font-size: 2rem;
+
     }
 
     .ActionCardSplitter
@@ -213,8 +254,9 @@
     .SectionIntro .LogoContainer h1
     {
         block-size: auto;
-        left: 100px;
-        top: 31vh;
+        left: 110px;
+        top: 33vh;
+        font-size: 2.8rem;
 
     }
 

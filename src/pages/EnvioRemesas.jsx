@@ -31,7 +31,7 @@ getRoot()
 
     componentDidMount()
   {
-      let intersectionObserver = new IntersectionObserver(this.onObserver,{threshold: 0.25});
+      let intersectionObserver = new IntersectionObserver(this.onObserver,{threshold: 0});
 
       intersectionObserver.observe(this.sectionProductRemesas.current.getRoot());
   }
@@ -40,8 +40,12 @@ getRoot()
 
     let intersecting = entries.filter((elem)=>elem.isIntersecting);
     let notIntersecting = entries.filter((elem)=>!(elem.isIntersecting));
+
     if(intersecting)
     {
+
+      console.log("intersecte");
+      console.log(intersecting);
       intersecting.forEach(element => {
           element.target.classList.add('Show');
           observer.unobserve(element.target);
@@ -49,6 +53,8 @@ getRoot()
     }
     if(notIntersecting)
     {
+      console.log(notIntersecting);
+
       notIntersecting.forEach(element => {
         element.target.classList.remove('Show');
       });

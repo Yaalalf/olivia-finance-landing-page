@@ -1,6 +1,6 @@
 .SectionTasaCambio
 {
-    min-block-size: 625px;
+    min-block-size: 800px;
     block-size: 100vh;
 
     display: flex;

@@ -24,6 +24,8 @@
 {
     inline-size: 100%;
     
+    margin-top: 20px;
+
     padding-bottom: 3px;
     border-bottom: solid 0.6vw var(--color-letter-medium);
     
@@ -36,16 +38,17 @@
 {
     
     inline-size: 90%;
-   
-    position: relative;
-    bottom: 10px;
     
+    /*position: relative;
+    bottom: 10px;
+    */
     margin: 0 auto;
+    margin-top: 20px;
 
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 2.2rem;
-    text-align: start;
+    text-align: center;
     color: var(--color-letter-soft);
 }
 
@@ -107,6 +110,12 @@
     .SectionBrief .Brief h2
     {
         border-bottom-width: 3px;  
+    }
+
+    .SectionBrief .Brief p
+    {
+        font-size : 1.7rem;
+        line-height: 2.5rem;
     }
 
 }
